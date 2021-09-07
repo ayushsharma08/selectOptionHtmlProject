@@ -1,0 +1,176 @@
+.content_body {
+    height: auto;
+    width: 446px;
+    margin: auto;
+}
+
+/* showcase */
+
+.showcase {
+    background-color: aqua;
+    height: 120px;
+}
+
+.showcase .flex {
+    justify-content: space-between;
+}
+
+.showcase .flex .content {
+    padding: 0 110px 0 0;
+}
+
+.showcase p {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* sub_showcase */
+
+.sub_showcase {
+    background-color: rgb(42, 196, 196);
+    height: 27px;
+}
+
+.sub_showcase a {
+    font-weight: 400;
+}
+
+.sub_showcase a i {
+    padding-left: 17px;
+    color: #000;
+}
+
+/* main_container */
+
+.main_container {
+    background-color: beige;
+    height: 27rem;
+}
+
+.main_container .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+/* .main_container .form_control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+} */
+
+.main_container .catogery {
+    font-weight: 400;
+    color: #ccc;
+    padding-top: 10px;
+    display: block;
+}
+
+.font_passward {
+    display: inline;
+}
+
+/* footer */
+
+.footer {
+    background-color: aqua;
+    position: relative;
+    height: 37px;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: 500;
+}
+
+/* form */
+
+.fill select {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.fill_sub select {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.main_container .form_control select {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    /* width: 100%; */
+    padding: 3px;
+    font-size: 16px;
+}
+
+.main_container .form_control input:focus {
+    outline: none;
+}
+
+.main_container .form_control select :focus {
+    outline: none;
+    border: none;
+}
+
+.main_container .container {
+    position: relative;
+    height: 27rem;
+}
+
+.main_container .container .security {
+    position: absolute;
+    bottom: 0px;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.fill select:focus {
+    outline: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.fill {
+    display: flex;
+}
+
+.fill>div {
+    padding: 2px;
+}
+
+.font_passward {
+    position: relative;
+}
+
+.font_email {
+    position: relative;
+}
+
+.font_passward i {
+    position: absolute;
+    right: 15px;
+    top: 9px;
+    color: gray;
+}
+
+.font_email i {
+    position: absolute;
+    left: 204px;
+    top: 9px;
+    color: gray;
+}
